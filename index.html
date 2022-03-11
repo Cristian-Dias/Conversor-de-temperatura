@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="div">
+        <h1>Insira os graus</h1>
+
+        <input type="number">
+
+        <h1>Selecione a unidade</h1>
+
+        <div>
+            <input type="radio" id="c" name="drone" value="celcius" checked>
+            <label for="celcius">Celcius</label>
+        </div>
+
+        <div>
+            <input type="radio" id="f" name="drone" value="fahrenheit">
+            <label for="fahrenheit">Fahrenheit</label>
+        </div>
+
+        <div>
+            <input type="radio" id="k" name="drone" value="kelvin">
+            <label for="kelvin">kelvin</label>
+        </div>
+
+        <div>
+            <input type="radio" id="r" name="drone" value="rankine">
+            <label for="rankine">Rankine</label>
+        </div>
+
+        <button onclick="calcular()">Calcular</button>
+    </div>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>

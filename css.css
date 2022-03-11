@@ -1,0 +1,14 @@
+*{
+    padding: 1vw;
+}
+
+body{
+    background-color: rgba(255, 0, 0, 0.363);
+}
+
+#div{
+    max-width: 25%;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 34vw;
+}
